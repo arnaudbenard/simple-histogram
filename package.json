@@ -1,0 +1,14 @@
+{
+  "name": "simple-histogram",
+  "version": "1.0.0",
+  "description": "Simple histogram utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "arnaudbenard",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
