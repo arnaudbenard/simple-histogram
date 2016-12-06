@@ -8,7 +8,7 @@ module.exports = function (list) {
   // Sort values and return keys
   return Object.keys(hist).sort(function (a, b) { return hist[b] - hist[a]; })
   // Remap the sorted key to an object
-  .map(key => {
+  .map(function (key) {
     var obj = {};
     obj[key] = hist[key];
     return obj;
